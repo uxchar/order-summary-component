@@ -1,0 +1,121 @@
+:root {
+  /* primary colors */
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+
+  /* secondary colors*/
+  --clr-very-pale-blue: hsl(225, 100%, 98%);
+  --clr-desaturated-blue: hsl(224, 23%, 55%);
+  --clr-dark-blue: hsl(223, 47%, 23%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-black: hsl(0, 0%, 0%);
+}
+
+* {
+  /* box-sizing: border-box; */
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*font weights 500,700,900 */
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--clr-pale-blue);
+}
+
+p {
+  font-size: 1rem;
+  color: var(--clr-desaturated-blue);
+}
+
+.main-container {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-title {
+  text-align: center;
+  margin: 30px auto 30px auto;
+  font-weight: 900;
+}
+
+.order-summary-card {
+  width: 330px;
+  height: 570px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.summary-img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.summary-description {
+  text-align: center;
+  margin: auto 30px auto 30px;
+}
+
+.plan-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 15px;
+  height: 85px;
+  width: 300px;
+  margin-left: 15px;
+  margin-top: 20px;
+  background-color: var(--clr-very-pale-blue);
+}
+
+.music-icon {
+  margin: 15px 10px 15px 15px;
+  order: 1;
+}
+
+.annual-txt {
+  margin-top: 20px;
+  margin-left: -10px;
+  margin-bottom: 20px;
+  order: 2;
+  color: var(--clr-black);
+  font-weight: 900;
+}
+
+.price {
+  order: 2;
+  align-self: flex-end;
+  margin-left: -110px;
+  margin-bottom: 10px;
+}
+
+.change {
+  order: 3;
+  font-weight: 900;
+  margin: 25px;
+}
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 15px 15px 15px;
+}
+
+.pay-btn {
+  font-weight: 900;
+  height: 50px;
+  width: 300px;
+  border-radius: 15px;
+  color: var(--clr-white);
+  background-color: var(--clr-bright-blue);
+}
+
+.cancel-btn {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 900;
+}
