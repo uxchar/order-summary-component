@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2021-12-18 at 00-43-58 Frontend Mentor Order summary card](C:\Users\uxcha\Downloads\Screenshot 2021-12-18 at 00-43-58 Frontend Mentor Order summary card.png)
+[![Screenshot-2021-12-18-at-00-51-18-Frontend-Mentor-Order-summary-card.png](https://i.postimg.cc/0jQnHkSY/Screenshot-2021-12-18-at-00-51-18-Frontend-Mentor-Order-summary-card.png)](https://postimg.cc/YG5Qvwb0)
 
 ### Links
 
