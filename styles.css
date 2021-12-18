@@ -21,7 +21,6 @@
 /*font weights 500,700,900 */
 body {
   font-family: "Red Hat Display", sans-serif;
-  background-color: var(--clr-pale-blue);
 }
 
 h1 {
@@ -41,6 +40,17 @@ p {
   height: 100vh;
   justify-content: center;
   align-content: center;
+  background: url(images/pattern-background-mobile.svg) no-repeat;
+  background-size: contain;
+}
+
+.layer {
+  background-color: var(--clr-pale-blue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* main card styles*/
@@ -49,7 +59,7 @@ p {
   height: 570px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0 20px 50px hsl(245, 75%, 52%, 0.2);
+  box-shadow: 0 20px 50px hsl(245, 75%, 52%, 0.25);
 }
 
 /*top card section*/
@@ -137,7 +147,7 @@ p {
   height: 50px;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 0 20px 30px hsl(245, 75%, 52%, 0.3);
+  box-shadow: 0 20px 30px hsl(245, 75%, 52%, 0.25);
   color: var(--clr-white);
   background-color: var(--clr-bright-blue);
 }
