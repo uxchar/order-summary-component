@@ -124,7 +124,7 @@ p {
 }
 .change {
   order: 3;
-  color: hsl(244.59, 0.75, 0.52)
+  color: hsl(244.59, 0.75, 0.52);
   align-self: center;
   font-weight: 900;
   margin: 25px;
