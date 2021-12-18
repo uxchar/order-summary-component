@@ -71,6 +71,7 @@ p {
 }
 
 .card-title {
+  color: var(--clr-dark-blue);
   text-align: center;
   margin: 25px auto 15px auto;
   font-weight: 900;
@@ -103,6 +104,7 @@ p {
 }
 
 .annual-txt {
+  color: var(--clr-dark-blue);
   order: 2;
   align-self: center;
   margin-bottom: 25px;
@@ -122,6 +124,7 @@ p {
 }
 .change {
   order: 3;
+  color: hsl(244.59, 0.75, 0.52)
   align-self: center;
   font-weight: 900;
   margin: 25px;
